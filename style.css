@@ -1,0 +1,89 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+#hep {
+    display: inline-flex;
+    align-items: center;
+}
+
+#headding {
+    font-size: 30px;
+}
+
+.navbaritem ul li {
+    display: inline;
+    
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.box-Container {
+    border: solid 7px #171818;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(131, 201, 215, 0.862);
+    border-style: solid;
+    border-color: black;
+    border: 1px solid rgb(146, 33, 33);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-width: 0px;
+}
+
+
+.gender {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.gender input {
+    margin-left: 30px;
+}
+
+.weight {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.weight input {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.button-class input {
+    font-weight: bold;
+}
+
+.button-class {
+    margin-left: 50px;
+}
+
+.heading {
+    font-weight: bold
+}
+
+nav ul {
+    list-style-type: none;
+    
+    margin: 0;
+
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(57, 8, 234);
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: purple;
+}
